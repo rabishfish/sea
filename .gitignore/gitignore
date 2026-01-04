@@ -1,0 +1,23 @@
+gitignore
+# 忽略所有.exe可执行文件
+*.exe
+
+# 忽略编译生成的中间文件
+*.o
+*.obj
+*.out
+
+# 忽略IDE或编辑器临时文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 可选：忽略Dev-C++生成的文件
+*.dev
+*.layout
+*.depend
